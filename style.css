@@ -103,7 +103,7 @@ opacity: 0.95;
 
 .img-circle {
   border-radius: 50%;
-  background-image:url("profile/images/profile_pic.jpg") ;
+  background-image:url("images/profile_pic.jpg") ;
   width: 200px;
   height: 200px;
   transition: 1s;
@@ -112,7 +112,7 @@ opacity: 0.95;
 }
 .img-circle:hover {
   border-radius: 50%;
-  background-image:url("profile/images/profile_2.jpg") ;
+  background-image:url("images/profile_2.jpg") ;
   width: 200px;
   height: 200px;
   transition: 1s;
