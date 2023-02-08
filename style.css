@@ -1,0 +1,169 @@
+::selection{
+  background-color: #415a77;
+  color: white;
+}
+
+/* Firefox */
+::-moz-selection {
+  background-color: #0d1b2a;
+  color: white;
+}
+html {
+  margin: 0;
+}
+body{
+  color:#0d1b2a;
+  background-color: #F1F1F1;
+  font-family: 'Mukta', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mukta', sans-serif;
+*/
+h1{
+  color: #415a77;
+  font-family: 'Fredoka One', cursive;
+  font-size: 60px;
+  margin: 0;
+}
+h2, h3{
+  color: #778da9;
+  font-family: 'Lobster', cursive;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-top: -24px;
+  text-align: right;
+  margin-right: 100px;
+  color: #a68655;
+
+}
+h3 {
+  font-size: 30px;
+}
+
+a{
+  color:#003049;
+  text-decoration: none;
+  transition: 0.6s;
+
+}
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  }
+a:hover{
+  color:#c1121f;
+  transition: 0.5s;
+}
+.fa-train{
+  color: #c1121f;
+}
+#follow-a
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s linear;
+}
+#follow-a:target
+{
+  visibility: visible;
+  opacity: 0.95;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+border-radius: 10px;
+margin: 20px 0px;
+text-align: center;
+opacity: 0.95;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  background-image:url("profile/images/profile_pic.jpg") ;
+  width: 200px;
+  height: 200px;
+  transition: 1s;
+  margin: 0 auto;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.img-circle:hover {
+  border-radius: 50%;
+  background-image:url("profile/images/profile_2.jpg") ;
+  width: 200px;
+  height: 200px;
+  transition: 1s;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.padding_10 {
+  padding: 10px;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
+
+  .btn-blue {
+    background-color: #003049;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition: 1s;
+}
+.btn-blue:hover {
+  color: #c1121f;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: 1s;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
